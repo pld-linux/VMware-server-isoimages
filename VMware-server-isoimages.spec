@@ -1,6 +1,7 @@
-%define		ver		2.0
+%define		ver	2.0
 %define		subver	84186
 Summary:	VMware Server - ISO images
+Summary(pl.UTF-8):	Obrazy ISO dla VMware Servera
 Name:		VMware-server-isoimages
 Version:	%{ver}.%{subver}
 Release:	1
@@ -24,6 +25,14 @@ standard PC, without repartitioning or rebooting, and without
 significant loss of performance.
 
 This package contains ISO Images.
+
+%description -l pl.UTF-8
+VMware Server Virtual Platform to cienka warstwa oprogramowania
+pozwalająca na jednoczesne działanie wielu gościnnych systemów
+operacyjnych na jednym zwykłym PC, bez repartycjonowania ani
+rebootowania, bez znacznej utraty wydajności.
+
+Ten pakiet zawiera obrazy ISO.
 
 %prep
 %setup -qcT
