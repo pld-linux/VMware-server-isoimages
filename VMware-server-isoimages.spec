@@ -1,5 +1,5 @@
-%define		ver	2.0
-%define		subver	84186
+%define		ver	2.0.0
+%define		subver	116503
 Summary:	VMware Server - ISO images
 Summary(pl.UTF-8):	Obrazy ISO dla VMware Servera
 Name:		VMware-server-isoimages
@@ -7,9 +7,9 @@ Version:	%{ver}.%{subver}
 Release:	1
 License:	custom, non-distributable
 Group:		Applications/Emulators
-# http://www.vmware.com/beta/server/download.html
-Source0:	http://download3.vmware.com/software/vmserver/VMware-server-e.x.p-%{subver}.i386.tar.gz
-# NoSource0-md5:	30f20c55a76ba46543df0e80bd21affc
+# http://www.vmware.com/download/server/
+Source0:	http://download2.vmware.com/software/server/VMware-server-%{ver}-%{subver}.i386.tar.gz
+# NoSource0-md5:	
 NoSource:	0
 URL:		http://www.vmware.com/
 BuildArch:	noarch
