@@ -1,5 +1,5 @@
-%define		ver	2.0.0
-%define		subver	116503
+%define		ver	2.0.1
+%define		subver	156745
 Summary:	VMware Server - ISO images
 Summary(pl.UTF-8):	Obrazy ISO dla VMware Servera
 Name:		VMware-server-isoimages
